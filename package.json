@@ -1,0 +1,20 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "Bot de música para Discord com Spotify (metadados), salas de voz privadas e controles completos.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.28.1",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "opusscript": "^0.1.1"
+  }
+}
